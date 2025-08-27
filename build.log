@@ -2,29 +2,22 @@
 > components@0.1.0 build
 > next build
 
-⚠ No build cache found. Please configure build caching for faster rebuilds. Read more: https://nextjs.org/docs/messages/no-cache
    ▲ Next.js 15.4.5
 
    Creating an optimized production build ...
 Failed to compile.
 
-./src/app/page.tsx
-Module not found: Can't resolve './mockData'
-
-https://nextjs.org/docs/messages/module-not-found
-
 ./src/app/layout.tsx
 Error:   [31mx[0m Expected ',', got 's'
-    ,-[[36;1;4m/home/user/project/src/app/layout.tsx[0m:14:1]
- [2m11[0m | 
- [2m12[0m | export const metadata: Metadata = {
- [2m13[0m |   title: 'QuantumFrame Photography',
- [2m14[0m |   description: 'Showcase the photographer's work...',
-    : [35;1m                                          ^[0m
- [2m15[0m | };
- [2m16[0m | 
- [2m17[0m | export default function RootLayout({
-    `----
+   ,-[[36;1;4m/home/user/project/src/app/layout.tsx[0m:3:1]
+ [2m1[0m | export const metadata: Metadata = {
+ [2m2[0m |   title: 'QuantumFrame Photography',
+ [2m3[0m |   description: 'Showcase the photographer's work...'
+   : [35;1m                                          ^[0m
+ [2m4[0m | };
+ [2m5[0m | 
+ [2m6[0m | export default function RootLayout({ children }) {
+   `----
 
 Caused by:
     Syntax Error
